@@ -1,0 +1,15 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+	compatible = "zmk,keymap";
+
+	default_layer { // Layer 0
+	    // Keymap in order of keys in matrix transform.
+	    bindings = <
+		// &kp ESC &kp 1 &kp 2 &kp 3 &kp 4...
+	    >;
+	};
+    };
+};

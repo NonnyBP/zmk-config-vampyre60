@@ -1,0 +1,5 @@
+config SHIELD_VAMPYRE60_LEFT
+    def_bool $(shields_list_contains,vampyre60_left)
+
+config SHIELD_VAMPYRE60_RIGHT
+    def_bool $(shields_list_contains,vampyre60_right)

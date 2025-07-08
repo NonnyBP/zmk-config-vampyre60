@@ -1,0 +1,7 @@
+file_format: "1"
+id: vampyre60
+name: Vampyre60
+type: shield
+siblings:
+  - vampyre60_left
+  - vampyre60_right

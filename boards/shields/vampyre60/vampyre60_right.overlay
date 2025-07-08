@@ -1,0 +1,6 @@
+// Used for right half specific overlay
+#include "vampyre60.dtsi"
+
+&default_transform {
+    col-offset = <6>;
+};
