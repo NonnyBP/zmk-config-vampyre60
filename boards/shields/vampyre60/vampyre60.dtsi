@@ -19,7 +19,7 @@
     // Matrix transform for "key position" events. Vampyre60 is 5 rows and 6 columns.
     default_transform: keymap_transform0 {
 	compatible = "zmk,matrix-transform";
-	columns = <6>;
+	columns = <12>;
 	rows = <5>;
     // | SW5  | SW6  | SW2  | SW1  | SW3  | SW4  |                                  | SW4  | SW3  | SW1  | SW2  | SW6  | SW5  |
     // | SW11 | SW12 | SW8  | SW7  | SW9  | SW10 |                                  | SW10 | SW9  | SW7  | SW8  | SW12 | SW11 |
