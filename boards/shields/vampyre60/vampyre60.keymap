@@ -29,6 +29,24 @@
     &kp RBKT  &kp RGUI &kp BSPC  &kp RET &mo 2    &kp RSHFT
 	    >;
 	};
+	
+	lower_layer {
+            bindings = <
+    // Left Keyboard
+    &kp trans   &kp F1      &kp F2      &kp F3      &kp F4      &kp F5
+    &kp trans   &kp trans   &kp trans   &kp trans   &kp trans   &kp trans
+    &kp trans   &kp trans   &kp trans   &kp trans   &kp trans   &kp trans
+    &kp trans   &kp trans   &kp trans   &kp trans   &kp trans   &kp trans
+    &kp trans   &kp trans   &kp trans   &kp trans   &kp trans   &kp trans
+
+    // Right Keyboard
+    &kp F6      &kp F7      &kp F8      &kp F9      &kp F0      &kp trans
+    &kp trans   &kp trans   &kp trans   &kp trans   &kp trans   &kp trans
+    &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp trans   &kp trans
+    &kp KP_PLUS &kp MINUS   &kp EQUAL   &kp trans   &kp trans   &kp trans
+    &kp trans   &kp trans   &kp trans   &kp trans   &kp trans   &kp trans
+	    >;
+	};
     };
 };
 
